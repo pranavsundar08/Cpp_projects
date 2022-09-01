@@ -1,3 +1,4 @@
+/* To write a program using cout- Name & Age of the person.
 #include<iostream>
 #include<string>
 using namespace std;
