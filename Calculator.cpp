@@ -18,9 +18,9 @@ int add(int x,int y)
  	return x*y;
 
  }
-  int main()
+  int main(){
   int x,y;
-  {
+  
   	string operation;
   	cout<<"Please enter value of x: ";
   	cin>>x;
@@ -31,7 +31,7 @@ int add(int x,int y)
   	if (operation==add)
 {	
 	cout<<"The addition of x and y are ="<<add<<endl;
-}	if else(operation==subtraction);
+}	else if(operation==subtraction);
 {
 	cout<<"The subtraction of x and y are= "<<subtract<<endl;
 }	else
